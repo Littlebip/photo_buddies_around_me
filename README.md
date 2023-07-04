@@ -18,28 +18,22 @@
   Users can browse through people and art in their community, post photo galleries, share their favorite photo spots nearby and take part in photography events. 
 </p>
 
-<img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467216/photobuddies%20-%20home.png" style="width: 450px;"/>
-<img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467216/photobuddies%20-%20search.png" style="width: 450px;"/>
-<img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467215/photobuddies%20-%20photo.png" style="width: 450px;"/>
-<img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467232/photobuddies%20-%20galleries.png" style="width: 450px;"/>
-<img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467221/photobuddies%20-%20events.png" style="width: 450px;"/>
-<img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467189/photobuddies%20-%20hotspot.png" style="width: 450px;"/>
+<div stlye="display: flex;">
+  <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467216/photobuddies%20-%20home.png" style="width: 450px; margin: 30px;"/>
+  <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467216/photobuddies%20-%20search.png" style="width: 450px; margin: 30px;"/>
+  <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467215/photobuddies%20-%20photo.png" style="width: 450px; margin: 30px;"/>
+  <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467232/photobuddies%20-%20galleries.png" style="width: 450px; margin: 30px;"/>
+  <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467221/photobuddies%20-%20events.png" style="width: 450px; margin: 30px;"/>
+  <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467189/photobuddies%20-%20hotspot.png" style="width: 450px; margin: 30px;"/>
+</div>
 
-
-
-
-
-
-
-
-<h2>Latest updates on this version:</h2>
+<h2>Latest to-do on this version:</h2>
 
 <ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Refactor the code and check for n+1 queries</li>
+  <li>Add responsiveness</li>
+  <li>Improve UI</li>
+  <li>Add additional user stories</li>
 </ul>
 
 

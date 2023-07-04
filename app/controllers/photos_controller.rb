@@ -1,11 +1,11 @@
 class PhotosController < ApplicationController
 
   def show
-    @photo = Photo.find(params[:id])
+    pho = Photo.includes(likes: [user: [photo_attachment: :blob]])
+    @photo = pho.find(params[:id])
     authorize @photo
     @gallery = Gallery.find(params[:gallery_id])
     @likes = @photo.likes
-
     @gallery_user = User.find(@gallery.user_id)
     @gallery_photos = Photo.where(gallery_id: @gallery.id)
     @photo_ids_array = []

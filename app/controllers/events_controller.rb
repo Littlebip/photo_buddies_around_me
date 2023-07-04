@@ -69,7 +69,8 @@ class EventsController < ApplicationController
   private
 
   def set_event
-    @event = Event.find(params[:id])
+    @ev = Event.includes(images_attachments: :blob)
+    @event = @ev.find(params[:id])
   end
 
   def event_params

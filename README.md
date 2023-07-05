@@ -27,10 +27,11 @@
   <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467189/photobuddies%20-%20hotspot.png" style="width: 450px; margin: 30px;"/>
 </div>
 
-<h2>Latest to-do on this version:</h2>
+<h2>Latest updates and to-do's on this version:</h2>
 
 <ul>
-  <li>Refactor the code and check for n+1 queries</li>
+  <li>🆗 Clean the code of n+1 queries</li>
+  <li>➡️Refactor the code in a DRYer way</li>
   <li>Add responsiveness</li>
   <li>Improve UI</li>
   <li>Add additional user stories</li>

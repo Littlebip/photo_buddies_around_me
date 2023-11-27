@@ -5,7 +5,7 @@
   <a href="https://github.com/ayubfarahh" target="_blank">Ayubfarahh</a> and 
   <a href="https://github.com/eseegerc" target="_blank">Eseegerc</a>, 
   we developed this Rails prototype app for two weeks. You can see the 2-week deployment version
-  <a href="https://www.photobuddies.me" target="_blank">here</a>. 
+  <a href="https://photo-buddies.herokuapp.com" target="_blank">here</a>. 
   I had the honor to pitch the demo of our app in front of everybody and you can see the recording if it 
   <a href="https://www.youtube.com/watch?v=8IprbbdpBw0&ab_channel=LeWagon" target="_blank">here</a>.
   I chose to keep working on this project to keep practicing without interfering with my teammates' version.
@@ -18,7 +18,7 @@
   Users can browse through people and art in their community, post photo galleries, share their favorite photo spots nearby and take part in photography events. 
 </p>
 
-<div stlye="display: flex;">
+<div style="display: flex;">
   <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467216/photobuddies%20-%20home.png" style="width: 450px; margin: 30px;"/>
   <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467216/photobuddies%20-%20search.png" style="width: 450px; margin: 30px;"/>
   <img src="https://res.cloudinary.com/daxdbkfkl/image/upload/v1688467215/photobuddies%20-%20photo.png" style="width: 450px; margin: 30px;"/>
